@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.job-container {
+  @apply px-4 md:px-56 py-2 md:py-4 bg-indigo-50
+}
+.home-container {
+  @apply px-4 md:px-56 pt-2 md:pt-4 bg-indigo-50
+}
+
+.footer-container {
+  @apply px-4 md:px-56
+}
+
+.category-container {
+  @apply px-4 md:px-64 pt-2 md:pt-4
+}
+.details-container {
+  @apply px-4 md:px-64 pt-2 md:pt-4
+}
+
+.header {
+  @apply py-2 md:py-0 md:p-8 rounded-lg
+}
+
+.nav-link {
+  @apply text-sm font-bold;
+}
+
+.nav-link-inactive {
+  @apply text-sm text-blue-700 font-bold
+}
+
+.job-btn {
+  @apply mt-5 btn btn-primary bg-gradient-to-r from-blue-600 to-indigo-500 text-white rounded-md
+}
+
+.job-btn-two {
+  @apply mt-5 btn btn-primary bg-gradient-to-r from-orange-600 to-amber-800 text-white rounded-md
+}
+
+.job-details-btn {
+  @apply mt-5 py-1 w-2/6 bg-gradient-to-r from-blue-600 to-indigo-500 text-white rounded-md
+}
+
+.job-details-btn-applied-jobs {
+  @apply py-2 px-3 w-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white rounded-md
+}
+
+.applied-job-btn {
+  @apply border border-indigo-400 p-2 rounded-md bg-indigo-50 text-indigo-800 text-sm
+}
+
+.applied-job-btn-active {
+  @apply border border-indigo-400 p-2 rounded-md bg-indigo-800 text-white text-sm
+}
+
+.job-type-btn {
+  @apply border border-indigo-300 text-indigo-600 px-3 font-medium text-sm py-1 rounded-lg bg-none disabled cursor-default
+}

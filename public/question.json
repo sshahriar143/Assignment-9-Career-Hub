@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1a",
+    "question": "When should you use context API?",
+    "answer": "Context API uses in React when multiple components that need access to the same data or state, want to avoid prop drilling, or have a global state that needs to be shared across the application."
+  },
+  {
+    "id": "2b",
+    "question": "What is a custom hook?",
+    "answer": " Instead of writing the same code across multiple components that use the same common stateful logic like (“setState”), you can put that code inside a custom hook and reuse it."
+  },
+  {
+    "id": "3c",
+    "question": "What is useRef?",
+    "answer": "useRef is used to create a reference object."
+  },
+  {
+    "id": "4d",
+    "question": "What is useMemo?",
+    "answer": "It memoizes the calculation result, and returns it to the component."
+  }
+]
